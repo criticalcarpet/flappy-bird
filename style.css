@@ -1,0 +1,147 @@
+       canvas{
+            border: 5px solid #000;
+            display: block;
+            margin: 0px auto;
+        }
+      .dingo{
+        font-size: 30px;
+      }
+    .button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+        .button2:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+        .center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
+/*  Google Webfonts */
+/*  For the screenshot to work successfully, we can't us the standard Google @import */
+
+/* latin-ext */
+@font-face {
+  font-family: 'Lexend Zetta';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Lexend Zetta Regular'), local('LexendZetta-Regular'), url(https://fonts.gstatic.com/s/lexendzetta/v1/ll87K2KYXje7CdOFnEWcU8sYny4frxdrAF1D.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Lexend Zetta';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Lexend Zetta Regular'), local('LexendZetta-Regular'), url(https://fonts.gstatic.com/s/lexendzetta/v1/ll87K2KYXje7CdOFnEWcU8sYkS4frxdrAA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Helvetica Neue", helvetica, arial, sans-serif;
+  text-align: center;
+  line-height: 1.5;
+  
+  padding-top: 4rem;
+  
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+a {
+  color: rgba(9,37,102, 1);
+}
+
+a:hover,
+a:active {
+  color: rgba(12,99,179, 1);
+}
+
+.new-flavor-container {
+  width: 100%;
+  margin-bottom: 4rem;
+  padding: 1rem 2rem;
+
+}
+
+@media screen and (min-width: 400px) {
+  .new-flavor-container {
+    max-width: 600px;
+    padding: 2rem 4rem;
+  }
+}
+
+.logo {
+  width: 100%;
+  max-width: 400px;
+  
+  margin-bottom: 1rem;
+}
+
+.name-display {
+  font-size: 20px;
+  font-family: 'Lexend Zetta', sans-serif;
+  text-transform: uppercase;
+  color: rgba(9,37,102, 1);
+}
+
+.generate-name-btn {
+  font-size: 16px;
+  color: #ffffff;
+  padding: 10px;
+  
+  width: 100%;
+  max-width: 300px;
+  background: rgba(9,37,102, 1);
+  border: none;
+  margin-bottom: 2rem;
+  padding: 1rem 2rem;
+  
+  cursor: pointer;
+}
+
+.generate-name-btn:hover,
+.generate-name-btn:active {
+  background: rgba(12,99,179, 1);
+}
+
+footer {
+  font-size: 12px;
+  text-align: center;
+  padding: 1rem;
+}
+
+/* @media screen and (min-width: 850px) {
+  footer {
+    background: #fff;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+}
+ */
+
+.bye{
+  font-family: "Times New Roman";
+}
